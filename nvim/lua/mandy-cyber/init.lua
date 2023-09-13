@@ -1,2 +1,3 @@
 require("mandy-cyber.remap")
-print("in mandy-cyber folder")
+require("mandy-cyber.set")
+require'nvim-tree'.setup {}

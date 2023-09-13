@@ -7,6 +7,7 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+
   -- TELESCOPE (for fuzzy finding)
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.2',
@@ -15,8 +16,8 @@ return require('packer').startup(function(use)
   }
 
   -- COLORSCHEMES
-  use({ 
-	  'rose-pine/neovim', 
+  use({
+	  'rose-pine/neovim',
 	  as = 'rose-pine',
 	  config = function()
 		  vim.cmd('colorscheme rose-pine')
@@ -50,7 +51,36 @@ return require('packer').startup(function(use)
 		  {'hrsh7th/nvim-cmp'},     -- Required
 		  {'hrsh7th/cmp-nvim-lsp'}, -- Required
 		  {'L3MON4D3/LuaSnip'},     -- Required
+	  }
   }
-}
+
+
+  -- MARKDOWN-PREVIEW (works with markdown and LaTeX)
+  use({
+	  "iamcco/markdown-preview.nvim",
+	  run = "cd app && npm install",
+	  setup = function() vim.g.mkdp_filetypes = { "markdown" } end,
+	  ft = { "markdown" },
+  })
+
+
+  -- NVIM-TREE (file explorer)
+  use {
+	  'nvim-tree/nvim-tree.lua',
+	  requires = {
+		  'nvim-tree/nvim-web-devicons', -- optional
+	  },
+  }
+
+  
+  -- TOGGLETERM (terminal)
+  use {
+	  "akinsho/toggleterm.nvim", tag = '*', config = function()
+		  require("toggleterm").setup()
+	  end
+  }
+
+
+
 
 end)
