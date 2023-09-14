@@ -37,7 +37,11 @@ What the final setup looks like:
 
 1. Download the nvim folder and save in your `~/.config` folder.
 
+<br>
+
 2. `cd ~/.config`
+
+<br>
 
 3. Replace `mandy-cyber` with your name/username/whatever you want. You need to do this for:
     - The mandy-cyber folder in `nvim/lua`
@@ -52,12 +56,16 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
+<br>
+
 5. Go to `nvim/lua/packer.lua` and run the command `:so`
     - Check that a bunch of things are downloading correctly by then running the command `:PackerSync`
 
+<br>
 
 6. Not sure if this step is entirely necessary but just in case (idk) go in each of the files in `nvim/after/plugin` and run the `:so` command again. Should be pretty quick.
 
+<br>
 
 7. All done (hopefully lol)!
 
