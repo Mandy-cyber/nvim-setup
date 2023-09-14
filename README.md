@@ -8,8 +8,8 @@ I started learning vim like 2 days ago so please if your name is Chad and you've
 1. [The Final Product](#-the-final-product)
 2. [Getting Started](#-getting-started)
 3. [Commands & Remaps](#-commands-and-remaps)
-4. [Useful Resources](#-useful-resources)
-5. [Contact Me](#-contact)
+4. [Useful Resources](#%EF%B8%8F-useful-resources)
+5. [Contact Me](#contact)
 
 <br>
 
