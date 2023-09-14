@@ -50,10 +50,11 @@ What the final setup looks like:
 
 <br>
 
-4. Install packer.nvim by doing:
+4. Install [packer.nvim](git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim) by doing:
 ```shell
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
-~/.local/share/nvim/site/pack/packer/start/packer.nvim
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
 <br>
