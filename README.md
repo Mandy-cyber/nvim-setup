@@ -1,9 +1,15 @@
 # Setup Nvim
 > To run a command make sure you're in 'Normal' mode by pressing ESC, and then write the command. Typically something like **`:<command>`**
 
-<br>
 
 I started learning vim like 2 days ago so please if your name is Chad and you've been doing this since you slid out the womb, be gentle omg!
+
+
+1. [The Final Product](#the-final-product)
+2. [Getting Started](#getting-started)
+3. [Commands & Remaps](#commands-and-remaps)
+4. [Useful Resources](#useful-resources)
+5. [Contact Me](#contact)
 
 <br>
 
@@ -61,7 +67,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 <br>
 
 
-### 🤖 Commands & Remaps
+### 🤖 Commands and Remaps
 <hr>
 Now, read through `commands.md` to see different commands you can run with the plugins you've installed as well as the remaps I made for some of them.
 
