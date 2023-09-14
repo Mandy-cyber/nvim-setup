@@ -50,8 +50,7 @@ What the final setup looks like:
 
 <br>
 
-4. Install [packer.nvim](git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim) by doing:
+4. Install [packer.nvim](https://github.com/wbthomason/packer.nvim) by doing:
 ```shell
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
@@ -61,7 +60,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 5. Open `nvim/lua/mandy-cyber/packer.lua` with nvim and run the command `:so`
     - Check that a bunch of things are downloading correctly by then running the command `:PackerSync`
-    - Yes you will see a gazillion warning messages when you're opening the file, just ignore for now lol.
+    - Yes you will see a gazillion warning messages when you're opening the file, just ignore them for now.
 
 <br>
 
@@ -73,6 +72,18 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 <br>
 
+### Common Errors
+- If it says something about missing a C compiler
+    - Run `sudo apt-get install build-essential` in your terminal
+    - Full issue [here](https://github.com/LunarVim/Neovim-from-scratch/issues/274)
+
+- If you get an error saying 'Pre build and node not found" when trying to use MarkdownPreview
+    - Run the `:call mkdp#util#install()` command in nvim
+    - Full Issue [here](https://github.com/iamcco/markdown-preview.nvim/issues/7)
+
+- If you get another error please consider asking someone smarter than me <3
+
+<br>
 
 ## 🤖 Commands and Remaps
 Now, read through `commands.md` to see different commands you can run with the plugins you've installed as well as the remaps I made for some of them.
