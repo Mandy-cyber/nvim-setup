@@ -64,7 +64,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 <br>
 
-6. Not sure if this step is entirely necessary but just in case (idk) go in each of the files in `nvim/after/plugin` and run the `:so` command again. Should be pretty quick.
+6. Not sure if this step is entirely necessary but just in case (idk) go in each of the `.lua` files in `nvim/after/plugin` and run the `:so` command again. Should be pretty quick.
 
 <br>
 
