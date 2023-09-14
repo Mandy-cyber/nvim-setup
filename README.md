@@ -1,5 +1,5 @@
 # Setup Nvim
-> To run a command make sure you're in 'Normal' mode by pressing ESC, and then write the command. Typically something like **`:<command>`**
+> To run a command in nvim make sure you're in 'Normal' mode by pressing ESC, and then write the command. Typically something like **`:<command>`**
 
 
 I started learning vim like 2 days ago so please if your name is Chad and you've been doing this since you slid out the womb, be gentle omg!
