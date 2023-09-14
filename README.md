@@ -5,11 +5,11 @@
 I started learning vim like 2 days ago so please if your name is Chad and you've been doing this since you slid out the womb, be gentle omg!
 
 
-1. [The Final Product](#the-final-product)
-2. [Getting Started](#getting-started)
-3. [Commands & Remaps](#commands-and-remaps)
-4. [Useful Resources](#useful-resources)
-5. [Contact Me](#contact)
+1. [The Final Product](#-the-final-product)
+2. [Getting Started](#-getting-started)
+3. [Commands & Remaps](#-commands-and-remaps)
+4. [Useful Resources](#-useful-resources)
+5. [Contact Me](#-contact)
 
 <br>
 
@@ -104,4 +104,3 @@ If you've got questions or wanna just chat you can find me here [on GitHub](http
 <br>
 
 **- Mandy <3**
-
