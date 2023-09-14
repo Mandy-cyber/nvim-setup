@@ -35,7 +35,7 @@ What the final setup looks like:
 ## 🤗 Getting Started
 **N.B. This walkthrough is assuming you already have nvim installed. If you don't then follow [these instructions](https://github.com/neovim/neovim/releases).**
 
-1. Download the nvim folder and save in your `~/.config` folder.
+1. Download the nvim folder from this repository and save it in your `~/.config` folder.
 
 <br>
 
