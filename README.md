@@ -13,8 +13,7 @@ I started learning vim like 2 days ago so please if your name is Chad and you've
 
 <br>
 
-### 🧠 The Final Product
-<hr>
+## 🧠 The Final Product
 What the final setup looks like:
 
 **Dark mode:**
@@ -33,9 +32,7 @@ What the final setup looks like:
 
 <br>
 
-### 🤗 Getting Started
-<hr>
-
+## 🤗 Getting Started
 **N.B. This walkthrough is assuming you already have nvim installed. If you don't then follow [these instructions](https://github.com/neovim/neovim/releases).**
 
 1. Download the nvim folder and save in your `~/.config` folder.
@@ -67,8 +64,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 <br>
 
 
-### 🤖 Commands and Remaps
-<hr>
+## 🤖 Commands and Remaps
 Now, read through `commands.md` to see different commands you can run with the plugins you've installed as well as the remaps I made for some of them.
 
 You can change the remaps in `nvim/lua/mandy-cyber/remap.lua` as well as in the individual plugin files in `nvim/after/plugin`.
@@ -79,9 +75,7 @@ AH one more thing, for basic vim settings and yada yada (like indent size and sp
 
 <br>
 
-### ✏️ Useful Resources
-<hr>
-
+## ✏️ Useful Resources
 A big chunk of all this I got from watching [this](https://www.youtube.com/watch?v=w7i4amO_zaE) youtube video by ThePrimeagen on 0.5x speed, and then added my own flava and whatnot. Other useful resources include:
 
 📽️ [Vim Tutorial for Beginners](https://www.youtube.com/watch?v=RZ4p-saaQkc&t=2724s&pp=ygURdmltIGZvciBiZWdpbm5lcnM%3D) - i watched the first like 40 minutes to get a general understanding of the basics of vim and it was more than enough knowledge for me to follow along with the ThePrimeagen video.
@@ -96,9 +90,7 @@ A big chunk of all this I got from watching [this](https://www.youtube.com/watch
 
 <br>
 
-### Contact
-<hr>
-
+## Contact
 If you've got questions or wanna just chat you can find me here [on GitHub](https://www.github.com/Mandy-cyber), or [on Linkedin](), or email me at `acm.rodriques at gmail dot com` 
 
 <br>
