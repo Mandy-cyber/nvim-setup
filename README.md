@@ -59,8 +59,9 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 <br>
 
-5. Go to `nvim/lua/packer.lua` and run the command `:so`
+5. Open `nvim/lua/mandy-cyber/packer.lua` with nvim and run the command `:so`
     - Check that a bunch of things are downloading correctly by then running the command `:PackerSync`
+    - Yes you will see a gazillion warning messages when you're opening the file, just ignore for now lol.
 
 <br>
 
