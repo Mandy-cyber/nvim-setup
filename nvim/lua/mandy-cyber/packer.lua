@@ -80,7 +80,12 @@ return require('packer').startup(function(use)
 	  end
   }
 
-
-
+  -- WILDER (command-line completion)
+  use {
+	  'gelguy/wilder.nvim',
+	  config = function()
+		  -- config goes here
+	  end,
+  }
 
 end)
