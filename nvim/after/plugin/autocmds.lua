@@ -13,11 +13,12 @@ api.nvim_create_autocmd("TextYankPost", {
 ------------------------------------------------
 -- LOAD TEMPLATES (aka 'skeletons') INTO FILES
 ------------------------------------------------
-
+--[[
 local mdTempGrp = api.nvim_create_augroup("MarkdownTemplate", { clear = true })
 api.nvim_create_autocmd("BufNewFile", {
     pattern = "brief.md",  -- Adjust the pattern as needed
     command = "0r ~/.config/nvim/skeletons/brief.md",
     group = mdTempGrp,
 })
+--]]
 
