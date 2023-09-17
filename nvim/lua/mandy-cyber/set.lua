@@ -24,6 +24,5 @@ vim.opt.spelllang = "en_us"
 vim.opt.spellsuggest = "fast"
 
 -- misc  
-vim.opt.visualbell = true -- i hate the beeping sound
--- vim.opt.wrap = true
 vim.opt.incsearch = true -- highlight what's being searched as we're typing
+vim.opt.autochdir = true -- automatically change pwd
