@@ -72,7 +72,7 @@ return require('packer').startup(function(use)
 	  },
   }
 
-  
+
   -- TOGGLETERM (terminal)
   use {
 	  "akinsho/toggleterm.nvim", tag = '*', config = function()
@@ -87,5 +87,17 @@ return require('packer').startup(function(use)
 		  -- config goes here
 	  end,
   }
+
+  -- DASHBOARD-NVIM (startup dashboard screen)
+  use {
+	  'glepnir/dashboard-nvim',
+	  event = 'VimEnter',
+	  config = function()
+		  require('dashboard').setup {
+			  -- config
+		  }
+	  end,
+	  requires = {'nvim-tree/nvim-web-devicons'}
+}
 
 end)
