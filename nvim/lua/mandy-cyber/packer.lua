@@ -88,16 +88,14 @@ return require('packer').startup(function(use)
 	  end,
   }
 
-  -- DASHBOARD-NVIM (startup dashboard screen)
+  -- ALPHA-NVIM (startup screen)
   use {
-	  'glepnir/dashboard-nvim',
-	  event = 'VimEnter',
-	  config = function()
-		  require('dashboard').setup {
-			  -- config
-		  }
-	  end,
-	  requires = {'nvim-tree/nvim-web-devicons'}
-}
+	  'goolord/alpha-nvim',
+	  requires = { 'nvim-tree/nvim-web-devicons' },
+	  config = function ()
+		  require'alpha'.setup(require'alpha.themes.startify'.config)
+	  end
+  }
+
 
 end)
