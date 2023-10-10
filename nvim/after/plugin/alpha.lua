@@ -51,12 +51,12 @@ dashboard.section.header.opts.hl = "DiagnosticHint"	-- see highlight options wit
 -- GENERAL
 dashboard.section.buttons.label = "General"
 dashboard.section.buttons.val = {
-	dashboard.button( "e", "  > New file", ":ene <BAR> startinsert <CR>"),
-    dashboard.button( "f", "  > Find file", ":cd $HOME/ | Telescope find_files<CR>"),
-    dashboard.button( "r", "  > Recent"   , ":Telescope oldfiles<CR>"),
-	dashboard.button( "c", "  > Classes" , ":NvimTreeOpen ~/Classes/<CR> | :Telescope find_files cwd=~/Classes<CR>"),
-    dashboard.button( "s", "  > Settings" , ":e $MYVIMRC | :cd %:p:h | split . | wincmd k | pwd<CR>"),
-    dashboard.button( "q", "  > Quit NVIM", ":qa<CR>"),
+	dashboard.button( "e", "  > New file", ":ene <BAR> startinsert <CR>"),
+    dashboard.button( "f", "  > Find file", ":cd $HOME/ | Telescope find_files<CR>"),
+    dashboard.button( "r", "  > Recent"   , ":Telescope oldfiles<CR>"),
+	dashboard.button( "c", "  > Classes" , ":NvimTreeOpen ~/Classes/<CR> | :Telescope find_files cwd=~/Classes<CR>"),
+    dashboard.button( "s", "  > Settings" , ":e $MYVIMRC | :cd %:p:h | split . | wincmd k | pwd<CR>"),
+    dashboard.button( "q", "  > Quit NVIM", ":qa<CR>"),
 }
 
 

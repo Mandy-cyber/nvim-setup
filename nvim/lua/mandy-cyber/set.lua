@@ -26,3 +26,5 @@ vim.opt.spellsuggest = "fast"
 -- misc  
 vim.opt.incsearch = true -- highlight what's being searched as we're typing
 vim.opt.autochdir = true -- automatically change pwd
+vim.opt.autowriteall = true -- automatically save a file
+
