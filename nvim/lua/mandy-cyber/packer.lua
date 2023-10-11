@@ -121,6 +121,7 @@ return require('packer').startup(function(use)
 	  end
   }
 
-  -- MARKDOWN-TOC (markdown table of contents generator)
+  -- VIMTEX (for LaTeX)
+  use('lervag/vimtex')
 
 end)
