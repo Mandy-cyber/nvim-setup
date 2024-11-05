@@ -1,3 +1,5 @@
+> Moved to this repo: https://github.com/Mandy-cyber/dotfiles
+
 # Setup Nvim
 > To run a command in nvim make sure you're in 'Normal' mode by pressing ESC, and then write the command. Typically something like **`:<command>`**
 
